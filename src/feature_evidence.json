@@ -1,0 +1,128 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-homepage-that-introduces-ryuuk-gaming-as-a-console-gaming-channel-with-a-hero-section-channel-description-and-call-to-action-to-explore-content",
+      "featureTitle": "Create a homepage that introduces Ryuuk Gaming as a console gaming channel with a hero section, channel description, and call-to-action to explore content",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Layout.tsx",
+        "frontend/src/components/Navigation.tsx",
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-a-games-showcase-section-displaying-featured-console-games-with-cover-images-titles-and-brief-descriptions",
+      "featureTitle": "Build a games showcase section displaying featured console games with cover images, titles, and brief descriptions",
+      "files": [
+        "frontend/src/components/GameCard.tsx",
+        "frontend/src/hooks/useGames.ts",
+        "frontend/src/pages/Games.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-videos-content-section-where-gaming-videos-or-streams-can-be-featured-with-thumbnails-titles-and-links",
+      "featureTitle": "Create a videos/content section where gaming videos or streams can be featured with thumbnails, titles, and links",
+      "files": [
+        "frontend/src/components/VideoCard.tsx",
+        "frontend/src/hooks/useVideos.ts",
+        "frontend/src/pages/Videos.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-an-about-section-explaining-the-ryuuk-gaming-channel-s-focus-on-console-gaming-mission-and-community",
+      "featureTitle": "Implement an about section explaining the Ryuuk Gaming channel's focus on console gaming, mission, and community",
+      "files": [
+        "frontend/src/pages/About.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-a-contact-or-community-section-with-social-media-links-and-ways-to-connect-with-the-gaming-channel",
+      "featureTitle": "Add a contact or community section with social media links and ways to connect with the gaming channel",
+      "files": [
+        "frontend/src/components/SocialLinks.tsx",
+        "frontend/src/pages/Contact.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-design-the-website-with-a-gaming-themed-aesthetic-featuring-bold-energetic-colors-avoiding-blue-and-purple-dynamic-typography-and-dark-mode-styling-that-suits-console-gaming-content",
+      "featureTitle": "Design the website with a gaming-themed aesthetic featuring bold, energetic colors (avoiding blue and purple), dynamic typography, and dark mode styling that suits console gaming content",
+      "files": [
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

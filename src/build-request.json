@@ -1,0 +1,115 @@
+{
+  "kind": "build_request",
+  "title": "Create website for Ryuuk Gaming console gaming channel",
+  "projectName": "Ryuuk Gaming",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a homepage that introduces Ryuuk Gaming as a console gaming channel with a hero section, channel description, and call-to-action to explore content",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Homepage displays Ryuuk Gaming branding prominently",
+        "Hero section includes channel tagline and visual appeal",
+        "Clear navigation to other sections of the site"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Build a games showcase section displaying featured console games with cover images, titles, and brief descriptions",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Games are displayed in a responsive grid layout",
+        "Each game shows cover art, title, and description",
+        "Games can be added, updated, and removed through the backend"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create a videos/content section where gaming videos or streams can be featured with thumbnails, titles, and links",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Content items display with thumbnail images",
+        "Each item includes title, description, and external link",
+        "Content can be managed through backend storage"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Implement an about section explaining the Ryuuk Gaming channel's focus on console gaming, mission, and community",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "About section describes the channel's focus and purpose",
+        "Section is easily accessible from main navigation",
+        "Content is clearly formatted and readable"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Add a contact or community section with social media links and ways to connect with the gaming channel",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Social media links are prominently displayed",
+        "Contact information or connection methods are clear",
+        "Links open correctly in new tabs"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Design the website with a gaming-themed aesthetic featuring bold, energetic colors (avoiding blue and purple), dynamic typography, and dark mode styling that suits console gaming content",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color scheme is bold and gaming-appropriate",
+        "Typography is modern and energetic",
+        "Dark theme enhances gaming content visibility",
+        "Design is cohesive across all pages"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "Video streaming functionality",
+    "Live chat features",
+    "User authentication system",
+    "Payment or subscription features",
+    "Real-time multiplayer gaming features"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Gaming hero banner with console controllers and dynamic gaming elements (hero-banner.dim_1920x600.png)",
+      "Ryuuk Gaming logo with bold gaming aesthetic (logo.dim_400x400.png)",
+      "Console gaming themed background pattern for sections (gaming-pattern.dim_1200x800.png)"
+    ],
+    "edits": []
+  }
+}

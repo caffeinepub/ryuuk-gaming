@@ -1,0 +1,18 @@
+{
+  "frontend/src/App.tsx": "Main application component that sets up TanStack Router with routes for Home, Games, Videos, About, and Contact pages, all wrapped in a Layout component.",
+  "frontend/src/components/Layout.tsx": "Layout wrapper component that provides consistent structure with Navigation header, main content area with Outlet for route rendering, and Footer across all pages.",
+  "frontend/src/components/Navigation.tsx": "Responsive navigation header with logo, desktop menu, and mobile hamburger menu that highlights the active route and provides smooth transitions.",
+  "frontend/src/components/Footer.tsx": "Footer component with brand information, quick links, social media connections, copyright notice, and Caffeine.ai attribution with UTM tracking.",
+  "frontend/src/components/SocialLinks.tsx": "Reusable social media links component displaying YouTube, Twitch, X (Twitter), and Discord icons with hover effects and proper external link attributes.",
+  "frontend/src/pages/Home.tsx": "Homepage featuring a hero section with banner image, channel introduction, feature cards highlighting gaming focus, and call-to-action sections linking to games and videos.",
+  "frontend/src/pages/Games.tsx": "Games showcase page that fetches and displays featured console games in a responsive grid with loading, error, and empty states.",
+  "frontend/src/pages/Videos.tsx": "Videos page that fetches and displays gaming video content in a responsive grid with thumbnails, titles, descriptions, and external links.",
+  "frontend/src/pages/About.tsx": "About page explaining Ryuuk Gaming's story, mission, values, and content focus with engaging sections and gaming-themed visuals.",
+  "frontend/src/pages/Contact.tsx": "Contact page featuring social media platform cards with descriptions, community statistics, and calls-to-action to connect across multiple channels.",
+  "frontend/src/components/GameCard.tsx": "Game card component displaying cover image, title, and description with hover effects and proper image loading from ExternalBlob.",
+  "frontend/src/components/VideoCard.tsx": "Video card component showing thumbnail, title, description, and external link button with play icon overlay on hover.",
+  "frontend/src/hooks/useGames.ts": "Custom React Query hook that fetches all games from the backend using the actor's getAllGames method.",
+  "frontend/src/hooks/useVideos.ts": "Custom React Query hook that fetches all videos from the backend using the actor's getAllVideos method.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring bold orange/red gaming theme, custom fonts (Inter and Rajdhani), dark mode optimized colors, and custom scrollbar styling.",
+  "frontend/tailwind.config.js": "Tailwind configuration with gaming-themed color palette (orange/red primary), custom fonts (Inter and Rajdhani), enhanced shadows with glow effects, and custom animations."
+}
